@@ -1,7 +1,7 @@
-var items = document.getElementsByClassName('list-group-item');
-items[2].style.background = 'green';
+var item = document.getElementsByTagName('li');
 
-for(let item of items){
-    item.style.fontWeight = 'bold';
-    item.style.color = 'orange';
-}
+console.log(item);
+
+item[4].style.color = 'red';
+
+item[4].style.fontStyle = 'italic';
