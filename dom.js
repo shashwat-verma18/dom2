@@ -1,7 +1,5 @@
-var item = document.getElementsByTagName('li');
+var item2 = document.querySelector('.list-group-item:nth-child(2)');
+item2.style.background = 'green';
 
-console.log(item);
-
-item[4].style.color = 'red';
-
-item[4].style.fontStyle = 'italic';
+var item3 = document.querySelector('.list-group-item:nth-child(3)');
+item3.style.visibility = 'hidden';
